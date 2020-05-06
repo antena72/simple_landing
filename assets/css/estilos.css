@@ -44,8 +44,8 @@ a:hover {
   position: relative;
 }
 #portfolio .portfolioItem .txtPortfolio {
-  font-weight: bold;
-  margin: 10px;
+  color: #fff;
+  margin: 0 auto;
   opacity: 0;
   position: absolute;
   text-align: center;
@@ -53,11 +53,18 @@ a:hover {
   width: 100%;
   z-index: 10;
 }
-.opacity1 {
-  opacity: 1 !important;
+#contact #form {
+  border: solid 1px #028090;
 }
-.opacity2 {
-  opacity: 0.3 !important;
+#contact #form #submitContainer {
+  background: #028090;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100px;
+}
+.form-control {
+  border: 0;
 }
 #footer p {
   font-size: 12px;
@@ -95,6 +102,12 @@ a:hover {
 }
 .backColor1 {
   background: #05668d;
+}
+.opacity1 {
+  opacity: 1 !important;
+}
+.opacity2 {
+  opacity: 0.3 !important;
 }
 .txtColor2 {
   color: #028090;

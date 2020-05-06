@@ -1,5 +1,5 @@
  <!DOCTYPE html>
- <html lang="es">
+ <html lang="en">
  <head>
  <meta charset="UTF-8">
  <meta name="description" content="">
@@ -16,12 +16,15 @@
 
  </head>
  <body>
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse">
-            <a class="navbar-brand" href="#"><i class="fas fa-satellite-dish"></i> AntenaWeb</a>
+        <a class="navbar-brand" href="#"><i class="fas fa-satellite-dish"></i> AntenaWeb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+          
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               
               <li class="nav-item"><a class="nav-link" href="index.html">Products</a></li>
@@ -55,7 +58,7 @@
 <!-- skills -->
 <div id="skills" class="backColor2 row py-5">
     <div class="width1020 row text-white p-5">
-    <div class="col-4">
+    <div class="col-12 col-md-4">
         <section>
             <div class="text-center">
                 <i class="fas fa-desktop fa-2x"></i>
@@ -64,7 +67,7 @@
             <p class="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos possimus est iure blanditiis ex debitis officia, nisi distinctio. Sit deserunt nihil voluptas itaque, veritatis amet similique deleniti impedit debitis dolorem?</p>
         </section>
     </div>
-    <div class="col-4">
+    <div class="col-12 col-md-4">
         <section>
             <div class="text-center">
                 <i class="far fa-edit fa-2x"></i>
@@ -73,7 +76,7 @@
             <p class="p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos possimus est iure blanditiis ex debitis officia, nisi distinctio. Sit deserunt nihil voluptas itaque, veritatis amet similique deleniti impedit debitis dolorem?</p>
         </section>
     </div>
-    <div class="col-4">
+    <div class="col-12 col-md-4">
         <section>
             <div class="text-center">
                 <i class="fas fa-asterisk fa-2x"></i>
@@ -86,35 +89,32 @@
 </div>
     
 <!-- services -->
-<div class="width1020">
-    <div id="services"  class="row p-5" >
+<div class="width1020 my-5" id="services">
+    <h2>Services</h2>
+    <div class="row p-5" >   
         <div class="row">
-            <div class="col-12 pb-5">
-                <h2>Services</h2>
-            </div>
-            
-            <div class="col-3">
+            <div class="col-12 mt-5 mt-md-0 col-md-3">
                 <h3>Service 1</h3>
                 <img src="assets/imag/close-up-photo-of-cactus-on-pot-1856430.jpg" class="img-thumbnail"  alt="Services 2">
                 <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum deserunt odit.
                 </p>
                 <a class="btn btn-light btn-block" href="#"><i class="fas fa-info-circle"></i> Read more</a>
             </div>
-            <div class="col-3">
+            <div class="col-12 mt-5 mt-md-0 col-md-3">
                 <h3>Service 2</h3>
                 <img src="assets/imag/close-up-photo-of-cactus-on-pot-1856430.jpg" class="img-thumbnail"  alt="Services 2">
                 <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum deserunt odit.
                 </p>
                 <a class="btn btn-light btn-block" href="#"><i class="fas fa-info-circle"></i> Read more</a>
             </div>
-            <div class="col-3">
+            <div class="col-12 mt-5 mt-md-0 col-md-3">
                 <h3>Our Services</h3>
                 <img src="assets/imag/close-up-photo-of-cactus-on-pot-1856430.jpg" class="img-thumbnail"  alt="Services 2">
                 <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum deserunt odit.
                 </p>
                 <a class="btn btn-light btn-block" href="#"><i class="fas fa-info-circle"></i> Read more</a>
             </div>
-            <div class="col-3">
+            <div class="col-12 mt-5 mt-md-0 col-md-3">
                 <h3>Our Services</h3>
                 <img src="assets/imag/close-up-photo-of-cactus-on-pot-1856430.jpg" class="img-thumbnail"  alt="Services 2">
                 <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum deserunt odit.
@@ -126,7 +126,7 @@
 </div>
 <hr>
 <!-- portfolio -->
-<div class="width1020" id="portfolio">
+<div class="width1020 my-5" id="portfolio">
     <h2>Portfolio</h2>
     <div class="row">
       <div class="portfolioItem col-sm-6 padding-0">
@@ -149,10 +149,55 @@
         </div>
       </div>
 </div>
+<hr>
+<!-- contact form -->
+<div class="width1020 my-5">
+    <div id="contact">
+        <h2 class="mb-5">Contact us</h2>
+        <form  action="#" method="post">
+            <div id="form" class="row mb-5 p-3 justify-content-center">
+                <div class="col-12 col-md-4 border-right">
+                    <h4>Lorem</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet vel in rerum sunt. Sapiente aliquam maiores reiciendis quibusdam non ex officia quidem officiis, quae nesciunt hic, earum nisi aliquid pariatur!</p>
+                </div>
+               <div class="col-12 col-md-7 offset-md-1">
+                   <div class="row mt-5">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0 border-bottom mr-md-2">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input class="form-control" type="text" placeholder="Your name" name="name" required>   
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-4 mt-md-0 border-bottom ml-md-2">
+                        <div class="form-group ">
+                            <label for="mail">Email</label>
+                            <input class="form-control" type="e-mail" placeholder="Your e-mail address" name="mail" required> 
+                        </div>
+                    </div>
+                   </div>
+                
+            
+                <div class="col-12">
+                    <div class="form-group border-bottom my-5">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" name="message" placeholder="Your message here..." id="" cols="30" rows="3"></textarea>
+                    </div>  
+                </div>
+
+                <div class="col-12">
+                <div id="submitContainer">
+                    <button class="btn text-white text-center">Submit <i class="fas fa-arrow-right"></i> </button>
+                </div> 
+                </div>
+            </div>
+               </div>
+        </form>
+    </div>
+</div>   
 <!-- footer -->
 <footer id="footer" class="bg-secondary pt-3">
     <div class="row">
-        <div class="col-6 text-center">
+        <div class="col-12 col-md-6 text-center">
                 <h5><a class="navbar-brand" href="#"><i class="fas fa-satellite-dish"></i> AntenaWeb</a></h5>
                 <hr>
                 <!-- social network -->
@@ -173,7 +218,7 @@
                     </a></li>
                 </ul>
         </div>
-        <div class="col-6 text-center mt-1">
+        <div class="col-12 col-md-6 text-center mt-1">
                 <ul>
                     <li><a target="_blanc" href="mailto:ximenamay@gmail.com">
                         <p><i class="fa fa-envelope"></i> ximenamay@gmail.com</p>
@@ -189,7 +234,7 @@
         </div>
     </div>
 </footer>
-<footer class="second-footer text-center mt-2">
+<footer class="second-footer text-center mt-2 mb-5">
 <h6 class="text-secondary">
     <i class="far fa-copyright"></i> XimenaMay
 </h6>
@@ -202,24 +247,10 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <script>
-$(document).ready(function(){
-    //slider
-    $(function(){
-        $('.slider').bxSlider({
-            mode: 'fade',
-            captions: true
-    });
-    portfolio
-    $('.portfolioItem').hover(function(){
-        $(this).children('img').toggleClass('opacity2');
-        $(this).children('p').toggleClass('opacity1');
-    })
-    
-});
 
- 
-    });
-  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="assets/js/funciones.js"></script>
  </body>
  </html>
